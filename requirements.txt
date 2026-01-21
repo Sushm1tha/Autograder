@@ -1,0 +1,33 @@
+# Autograder Agent - Dependencies
+
+# Web Interface
+streamlit>=1.28.0
+
+# LLM Providers
+openai>=1.0.0          # OpenAI API (optional)
+anthropic>=0.18.0      # Anthropic API (optional)
+requests>=2.31.0       # For Ollama REST API
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.1.0        # Excel support
+numpy>=1.24.0
+
+# File Processing
+python-pptx>=0.6.21    # PowerPoint support
+
+# Visualization
+altair>=5.0.0
+
+# Static Analysis Tools (for tool-assisted grading)
+pylint>=3.0.0
+flake8>=7.0.0
+
+# Testing (for tool-assisted grading)
+pytest>=8.0.0
+
+# Optional
+nbformat>=5.9.0        # Notebook parsing (usually included with jupyter)
