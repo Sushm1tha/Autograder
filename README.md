@@ -20,41 +20,6 @@ An AI-powered automatic grading system for student submissions. Supports Python 
 | **OpenAI** | Cloud | GPT-4o accuracy |
 | **Anthropic** | Cloud | Claude models |
 
-## Quick Start
-
-### 1. Installation
-
-```bash
-cd "/home/gitaa/Agentic AI/Autograder"
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 2. Configuration
-
-```bash
-cp .env.example .env
-# Edit .env if needed (default uses Ollama)
-```
-
-### 3. Start Ollama (if using local models)
-
-```bash
-ollama pull llama3.2
-ollama serve
-```
-
-### 4. Run the Application
-
-```bash
-streamlit run app.py
-```
-
 ## How to Use
 
 ### Step 1: Setup Grading
@@ -114,7 +79,6 @@ Autograder/
 ├── app.py                   # Streamlit interface
 ├── config.py                # Configuration
 ├── requirements.txt
-├── .env.example
 └── README.md
 ```
 
@@ -140,6 +104,3 @@ The grading results DataFrame includes:
 - Ollama (for local models) or API keys
 - See `requirements.txt` for dependencies
 
-## License
-
-MIT License
